@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <com.zorax.wms.view.FullScreeView
+        android:id="@+id/vv_play"
+        style="@style/video_view_style">
+    </com.zorax.wms.view.FullScreeView>
+    <TextView
+        android:id="@+id/text_time"
+        android:text="跳过"
+        android:textSize="18dp"
+        android:textColor="@color/text_ffffff"
+        android:layout_width="90dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:background="@drawable/shape_splah"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</FrameLayout>
